@@ -17,14 +17,14 @@ function ChartLocal() {
           ],
           hoverOffset: 0,
           borderWidth: 0,
-          borderRadius: 0,
+          borderRadius: 5,
        
         }],
         
       };
 
       var options = {        
-        cutout: 39,
+        cutout: 30,
         maintainAspectRatio: false
     };
 
@@ -32,7 +32,7 @@ function ChartLocal() {
     return (
         <div className='chartLocal'>
             <div className="chartLocal_chartStyle">
-                <Doughnut data={data} style={{width:"80px",height:"80px"}} options={options} />
+                <Doughnut data={data} style={{width:"100%",height:"100%"}} options={options} />
                 <div className="chartLocal_textContainer">50%</div>
             </div>
         </div>
