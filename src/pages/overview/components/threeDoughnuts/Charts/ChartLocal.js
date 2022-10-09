@@ -1,6 +1,8 @@
 import React from 'react'
 import { Doughnut } from 'react-chartjs-2'
 import "./chartLocal.css"
+import 'chart.js/auto';
+
 
 function ChartLocal() {
 
@@ -30,7 +32,7 @@ function ChartLocal() {
     return (
         <div className='chartLocal'>
             <div className="chartLocal_chartStyle">
-                <Doughnut data={data} style={{width:"110px",height:"110px"}} options={options} />
+                <Doughnut data={data} style={{width:"80px",height:"80px"}} options={options} />
                 <div className="chartLocal_textContainer">50%</div>
             </div>
         </div>

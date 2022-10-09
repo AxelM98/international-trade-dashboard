@@ -40,6 +40,7 @@ body {
     margin-top: 10px;
     margin-left: 2.33%;
     margin-bottom: 10px;
+    display: flex;
 }
 
 .overview_statistics_section1_import {

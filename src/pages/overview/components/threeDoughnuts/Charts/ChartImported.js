@@ -30,7 +30,7 @@ function ChartImported() {
     return (
         <div className='chartImported'>
             <div className="chartImported_chartStyle">
-                <Doughnut data={data} style={{width:"110px",height:"110px"}} options={options} />
+                <Doughnut data={data} style={{width:"80px",height:"80px"}} options={options} />
                 <div className="chartImported_textContainer">50%</div>
             </div>
         </div>
