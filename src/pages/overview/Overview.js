@@ -1,5 +1,7 @@
 import React from 'react'
 import "./styles/overview.css"
+import ThreeDoughnuts from "./components/threeDoughnuts/ThreeDoughnuts";
+
 
 function Overview() {
   return (
@@ -8,7 +10,9 @@ function Overview() {
         <div className='overview_statistics'>
           <div className='overview_statistics_worldmap'></div>
           <div className='overview_statistics_section1'>
-            <div className='overview_statistics_section1_export'></div>
+            <div className='overview_statistics_section1_export'>
+              <ThreeDoughnuts />
+            </div>
             <div className='overview_statistics_section1_import'></div>
             <div className='overview_statistics_section1_location'></div>
           </div>
