@@ -2,7 +2,7 @@ import React from 'react'
 import "./styles/overview.css"
 import ThreeDoughnuts from "./components/threeDoughnuts/ThreeDoughnuts";
 import Frequency from './components/Frequency/frequency';
-
+import Breakdown from "./components/breakdown/Breakdown"
 
 function Overview() {
   return (
@@ -17,7 +17,9 @@ function Overview() {
             <div className='overview_statistics_section1_import'>
               <Frequency />
             </div>
-            <div className='overview_statistics_section1_location'></div>
+            <div className='overview_statistics_section1_location'>
+              <Breakdown />
+            </div>
           </div>
           <div className='overview_statistics_section2'>
             <div className='overview_statistics_section2_export'></div>
